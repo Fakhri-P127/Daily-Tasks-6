@@ -1,0 +1,14 @@
+C:\Users\efend\source\repos\Daily-Tasks-6\Task-1\Task-1\bin\Debug\netcoreapp3.1\Task-1.exe
+C:\Users\efend\source\repos\Daily-Tasks-6\Task-1\Task-1\bin\Debug\netcoreapp3.1\Task-1.deps.json
+C:\Users\efend\source\repos\Daily-Tasks-6\Task-1\Task-1\bin\Debug\netcoreapp3.1\Task-1.runtimeconfig.json
+C:\Users\efend\source\repos\Daily-Tasks-6\Task-1\Task-1\bin\Debug\netcoreapp3.1\Task-1.runtimeconfig.dev.json
+C:\Users\efend\source\repos\Daily-Tasks-6\Task-1\Task-1\bin\Debug\netcoreapp3.1\Task-1.dll
+C:\Users\efend\source\repos\Daily-Tasks-6\Task-1\Task-1\bin\Debug\netcoreapp3.1\Task-1.pdb
+C:\Users\efend\source\repos\Daily-Tasks-6\Task-1\Task-1\obj\Debug\netcoreapp3.1\Task-1.csproj.AssemblyReference.cache
+C:\Users\efend\source\repos\Daily-Tasks-6\Task-1\Task-1\obj\Debug\netcoreapp3.1\Task-1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\efend\source\repos\Daily-Tasks-6\Task-1\Task-1\obj\Debug\netcoreapp3.1\Task-1.AssemblyInfoInputs.cache
+C:\Users\efend\source\repos\Daily-Tasks-6\Task-1\Task-1\obj\Debug\netcoreapp3.1\Task-1.AssemblyInfo.cs
+C:\Users\efend\source\repos\Daily-Tasks-6\Task-1\Task-1\obj\Debug\netcoreapp3.1\Task-1.csproj.CoreCompileInputs.cache
+C:\Users\efend\source\repos\Daily-Tasks-6\Task-1\Task-1\obj\Debug\netcoreapp3.1\Task-1.dll
+C:\Users\efend\source\repos\Daily-Tasks-6\Task-1\Task-1\obj\Debug\netcoreapp3.1\Task-1.pdb
+C:\Users\efend\source\repos\Daily-Tasks-6\Task-1\Task-1\obj\Debug\netcoreapp3.1\Task-1.genruntimeconfig.cache
