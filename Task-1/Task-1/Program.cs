@@ -8,16 +8,23 @@ namespace Task_1
         {
             string username;
             string password;
-            
+
             do
             {
+                Console.Write("Username: ");
                 username = Console.ReadLine();
+                Console.Write("Password: ");
                 password = Console.ReadLine();
-                Admin admin = new Admin(username, password, true ,Console.ReadLine());
-                //Console.WriteLine(admin.FirstHalf());
-                //Console.WriteLine(admin.SecondHalf());
-                Console.WriteLine(admin.GetAll());
-            } while (!Admin.isCorrect(username,password));                               
+                if (Admin.CheckIfTrue(username,password))
+                {
+                    Admin admin = new Admin(username, password, true, "Admin Settings");
+                    Console.WriteLine(admin.GetAll());
+                }
+                else
+                {
+                    Console.WriteLine("Username needs to be longer than 6, lesser than 30 characters\nPassword needs to at least have 1 uppercase, 1 digit and more than 8 characters");
+                }
+            } while (!Admin.CheckIfTrue(username,password));                              
         }                                            
     }
 }
