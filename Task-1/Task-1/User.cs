@@ -17,13 +17,13 @@ namespace Task_1
             }
             set
             {                
-                if (value.Length > 6)
+                if (value.Length > 6 && value.Length<30)
                 {
                     username = value;                        
                 }
                 //else
                 //{
-                //    Console.WriteLine("Username needs to be longer than 6 letters");                                             
+                //    Console.WriteLine("Username needs to be longer than 6, lesser than 30 characters");                                             
                 //}                                                             
             }            
         }
@@ -36,7 +36,7 @@ namespace Task_1
             }
             set
             {                
-                if (value.Any(char.IsDigit) && value.Any(char.IsUpper))
+                if (value.Any(char.IsDigit) && value.Any(char.IsUpper) && value.Length>8)
                 {
                     password = value;
                 }
@@ -79,7 +79,7 @@ namespace Task_1
 
                 //else
                 //{
-                //    Console.WriteLine("Password needs to have at least 1 uppercase and 1 digit");
+                //    Console.WriteLine("Password needs to have at least 1 uppercase, 1 digit and more than 8 characters");
                 //}
             }
         }
@@ -95,7 +95,7 @@ namespace Task_1
         }
        public static bool CheckIfTrue(string username,string password)
         {            
-            if (username.Length > 6 && password.Any(char.IsDigit) && password.Any(char.IsUpper) && password.Length > 8)
+            if (username.Length > 6 && username.Length<30  && password.Any(char.IsDigit) && password.Any(char.IsUpper) && password.Length > 8)
             {
                 return true;
             }
